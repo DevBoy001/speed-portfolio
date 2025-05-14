@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaBeer } from 'react-icons/fa';
 
 const ContactPage = () => {
 
@@ -19,7 +20,7 @@ const ContactPage = () => {
         </div>
 
         <div className="social-links">
-          <a href="https://twitter.com/yourhandle" className="social-link">X (Twitter)</a>
+          <a href="https://twitter.com/yourhandle" className="social-link"><FaBeer /></a>
           <a href="https://youtube.com/yourchannel" className="social-link">YouTube</a>
           <a href="https://instagram.com/yourhandle" className="social-link">Instagram</a>
         </div>
