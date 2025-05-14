@@ -4,21 +4,21 @@ const ProjectsPage = () => {
   const projects = [
     {
       title: 'Live Stream Highlights',
-      description: 'A collection of my wildest, funniest, and most viral moments on stream. Pure unfiltered energy.',
-      videoId: 'dQw4w9WgXcQ', // Replace with real video ID
-      link: 'https://youtube.com' // Optional: link to channel or playlist
+    description: 'A collection of my wildest, funniest, and most viral moments on stream. Pure unfiltered energy.',
+    videoId: 'oiCk3iFsyMw',
+    link: 'https://www.youtube.com/@IShowSpeed'
     },
     {
       title: 'Music & Bangers',
       description: 'From “World Cup” to other tracks I dropped — this showcases my passion for music and vibes.',
-      videoId: '9bZkp7q19f0', // Replace with real video ID
-      link: 'https://youtube.com'
+      videoId: '8n5dJwWXrbo', // Replace with real video ID
+      link: 'https://www.youtube.com/@IShowSpeed'
     },
     {
       title: 'Fan Moments & IRL',
       description: 'Real-life moments with fans, travel clips, and unforgettable memories from the journey.',
-      videoId: 'tVj0ZTS4WF4', // Replace with real video ID
-      link: 'https://youtube.com'
+      videoId: 'GxlWfenzL9M', // Replace with real video ID
+      link: 'https://www.youtube.com/@IShowSpeed'
     }
   ];
 

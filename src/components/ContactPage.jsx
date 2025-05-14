@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 
 const ContactPage = () => {
 
@@ -12,18 +14,11 @@ const ContactPage = () => {
         </p>
 
         <div className='social-links'>
-          {/* <a href="wa.me/+2347039050611" className='social-media-link'>WA</a> */}
-          <a href="#" className='social-media-link'>IG</a>
-          <a href="#" className='social-media-link'>X</a>
-          {/* <a href="#" className='social-media-link'>GH</a> */}
-          <a href="#" className='social-media-link'>YT</a>
+          <a href="https://www.instagram.com/ishowspeed?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='social-media-link'><FaInstagram /></a>
+          <a href="https://x.com/ishowspeedsui" className='social-media-link'><FaXTwitter /></a>
+          <a href="https://www.youtube.com/@IShowSpeed" className='social-media-link'><FaYoutube /></a>
         </div>
 
-        <div className="social-links">
-          <a href="https://twitter.com/yourhandle" className="social-link"><FaBeer /></a>
-          <a href="https://youtube.com/yourchannel" className="social-link">YouTube</a>
-          <a href="https://instagram.com/yourhandle" className="social-link">Instagram</a>
-        </div>
       </div>
     </section>
   );
